@@ -1,0 +1,29 @@
+[{
+    "id" : 1,
+    "name" : "Axis Solutions",
+    "address" : "2 Oak Avenue, Surbubs",
+    "city" : "Bulawayo",
+    "country" : "Zimbabwe",
+    "contactNumber" : "0774405106",
+    "email" : "novawebinc@gmail.com",
+    "vat" : "1009456",
+    "bpn" : "20008977"
+
+
+
+},
+{
+    "id" : 2,
+    "name" : "Johnson All",
+    "address" : "2 Stewart Avenue, Surbubs",
+    "city" : "Bulawayo",
+    "country" : "Zimbabwe",
+    "contactNumber" : "0774405106",
+    "email" : "novawebinc@gmail.com",
+    "vat" : "1009456",
+    "bpn" : "20008977"
+
+
+
+}
+]

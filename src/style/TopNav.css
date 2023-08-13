@@ -1,0 +1,60 @@
+.top-nav{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--rich-black);
+    align-items: center;
+    box-shadow: 1px 1px 5px var(--rich-black);
+}
+
+.top-nav img{
+    width: 100px;
+    align-self: center ;
+    margin-left: 1%;
+}
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    margin-right: 1%;
+    align-self: center;
+    justify-content: space-around;
+    width: 40vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.menu-icon{
+    color: aliceblue;
+}
+
+.userIcon{
+    color: aliceblue; 
+}
+
+
+
+.Menu{
+    visibility: hidden;
+    position: absolute;
+    color: aliceblue;
+    background-color: var(--rich-black);
+    height: 100px;
+    width: 200px;
+    right: 0;
+    top: 5vh;
+    list-style: none;
+    padding: 10px;
+    z-index: 1;
+}
+
+.Menu-item{
+    padding: 5px;
+}
+
+
+
+
+

@@ -1,0 +1,147 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.Sale{
+    padding: 0;
+    height: 50%;
+   
+    display: flex;
+    flex-direction: column;
+    background-color: var(--air-superiority-blue);
+}
+.wrapper{
+    
+    
+overflow-y: hidden;
+background-color: var(--air-superiority-blue);
+
+ 
+}
+
+.sale-header{
+    margin-top: 6vh;
+    background-color: var(--air-superiority-blue);
+    padding: 1vw;
+    display: flex;
+    height: 10vh;
+}
+
+.sale-form{
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1vw;
+    width: 40vw;
+
+}
+
+.CustomerName{
+    width: 250px;
+    height: 20px;
+    text-align: center;
+}
+
+.companyDetails{
+    width: 250px;
+    height: 20px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.invoice-number-display{
+    position: absolute;
+    right: 20px;
+    
+    width: 250px;
+    color: white;
+
+   
+}
+
+.add-product-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    background-color: var( --rich-black);
+    color: white;
+}
+.Bottom-bar{
+    position: absolute;
+    bottom : 0;
+    width: 100%;
+    height: 15vh;
+    border-top: solid var(--rich-black)  1px;
+    border-bottom: solid var(--rich-black)  1px;
+
+ 
+}
+
+.transaction-totals{
+    position: absolute;
+    bottom: 1;
+    right: 0;
+
+    width: 40vw;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: solid var(--rich-black) 1px;
+    color: aliceblue;
+   
+}
+
+.info-box{
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+.info-box span{
+    width: 10vw;
+    border : solid var(--rich-black) 1px;
+    padding: 3px;
+    text-align: right;
+    position: absolute;
+    right: 25px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.ClearBtn{
+    
+    width: 100px;
+    height: 30px;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    background-color: var( --rich-black);
+    color: aliceblue;
+}
+
+.ProcessBtn{
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    background-color: var( --rich-black);
+    color: aliceblue;
+}
+
+.table{
+    background-color: var(--air-superiority-blue);
+    height: 100%;
+}

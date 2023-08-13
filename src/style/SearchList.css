@@ -1,0 +1,11 @@
+.SearchList{
+    position: absolute;
+    margin-top: 5vh;    
+    list-style: none;
+}
+
+.SearchList-item{
+    background-color: aliceblue;
+    width: 200px;
+    border-bottom: solid 1px gray;
+}

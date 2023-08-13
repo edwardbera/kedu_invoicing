@@ -1,0 +1,42 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Login{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--rich-black);
+    display: grid;
+    place-items: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--walnut-brown);
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.login-form input{
+    width: 300px;
+    align-self: center;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+
+.login-form button{
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    align-self: center;
+}

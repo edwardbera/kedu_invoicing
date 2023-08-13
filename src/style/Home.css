@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Home{
+
+    padding: .5vh;
+    background-color: var(--air-superiority-blue);
+    height: 99vh;
+}
+
+.logo{
+    width: 100px ;
+}
+
+.icon{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    right: 10px;
+    top: 10px;
+}
+
+.revenue{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 250px;
+    background-color: var(--baby-powder);
+
+    border-radius: 10px;
+}
+
+.revenue p{
+    align-self: center; 
+    color: var(--air-superiority-blue);
+}
+
+.statusField{
+    width: 99vw;
+    
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    
+}
+
+.homeButtons{
+    padding-top: 2vh;
+    width: 98.7vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    flex-wrap:wrap;
+}
+
+.homeButton{
+    color: aliceblue;
+    height: 100px;
+    width: 250px;
+    border: none;
+    background-color: var(--rich-black);
+    border-radius: 10px;
+}
+
